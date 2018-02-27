@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+
+<div class="jumbotron">
+    <h1>{{title}} </h1>
+    <p class="lead">{{description}}</p>
+    <p><a href="https://angular.io/docs" target="_blank" class="btn btn-primary btn-lg">Aprenda mais &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4" *ngFor="let article of articles">
+        <h2>{{article.title}}</h2>
+        <p>
+            {{article.description}}
+        </p>
+        <p><a [href]="article.url" target="_blank" class="btn btn-dark btn-sm">Aprenda mais &raquo;</a></p>
+    </div>
+</div>
+
+
+
+<div class="card">
+  <div class="card-body">
+    <form>
+      <div class="form-group">
+        <div class="alert alert-dark" role="alert">
+          <strong>Ng2 Currency Mask</strong> 
+        </div>
+        <input currencyMask [(ngModel)]="value" name="value" [options]="{ prefix: 'R$ ', thousands: '.', decimal: ',' }"  type="text" class="form-control" placeholder="00,00">
+        <small class="form-text text-muted">Formatando valores corretamente! <strong>{{value}}</strong></small>
+      </div>
+    </form>
+
+  </div>
+</div>
+
