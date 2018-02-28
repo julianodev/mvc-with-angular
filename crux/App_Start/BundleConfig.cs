@@ -36,7 +36,7 @@ namespace app
                "~/bundles/main.*"));
 
             bundles.Add(new StyleBundle("~/Content/Styles")
-    .Include("~/bundles/styles.*"));
+                   .Include("~/bundles/styles.*"));
         }
     }
 }

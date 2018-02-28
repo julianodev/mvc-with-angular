@@ -151,31 +151,43 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Angular\.gitignore" />
+    <Content Include="Angular\dist\out-tsc\app\app.component.js" />
+    <Content Include="Angular\dist\out-tsc\app\app.module.js" />
+    <Content Include="Angular\dist\out-tsc\app\navbar\navbar.component.js" />
+    <Content Include="Angular\dist\out-tsc\e2e\app.e2e-spec.js" />
+    <Content Include="Angular\dist\out-tsc\e2e\app.po.js" />
+    <Content Include="Angular\dist\out-tsc\environments\environment.js" />
+    <Content Include="Angular\dist\out-tsc\environments\environment.prod.js" />
+    <Content Include="Angular\dist\out-tsc\main.js" />
+    <Content Include="Angular\dist\out-tsc\polyfills.js" />
+    <Content Include="Angular\dist\out-tsc\src\app\app.component.js" />
+    <Content Include="Angular\dist\out-tsc\src\app\app.component.spec.js" />
+    <Content Include="Angular\dist\out-tsc\src\app\app.module.js" />
+    <Content Include="Angular\dist\out-tsc\src\app\navbar\navbar.component.js" />
+    <Content Include="Angular\dist\out-tsc\src\app\navbar\navbar.component.spec.js" />
+    <Content Include="Angular\dist\out-tsc\src\environments\environment.js" />
+    <Content Include="Angular\dist\out-tsc\src\environments\environment.prod.js" />
+    <Content Include="Angular\dist\out-tsc\src\main.js" />
+    <Content Include="Angular\dist\out-tsc\src\polyfills.js" />
+    <Content Include="Angular\dist\out-tsc\src\test.js" />
+    <Content Include="Angular\src\app\app.component.css" />
+    <Content Include="Angular\src\app\app.component.html" />
+    <Content Include="Angular\src\app\navbar\navbar.component.css" />
+    <Content Include="Angular\src\app\navbar\navbar.component.html" />
+    <Content Include="Angular\src\index.html" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
     <Content Include="Content\bootstrap-reboot.css" />
     <Content Include="Content\bootstrap-reboot.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Cotador\.gitignore" />
-    <Content Include="Cotador\src\app\app.component.css" />
-    <Content Include="Cotador\src\app\app.component.html" />
-    <Content Include="Cotador\src\app\navbar\navbar.component.css" />
-    <Content Include="Cotador\src\app\navbar\navbar.component.html" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Cotador\.angular-cli.json" />
-    <Content Include="Cotador\.editorconfig" />
-    <Content Include="Cotador\package-lock.json" />
-    <Content Include="Cotador\package.json" />
-    <Content Include="Cotador\src\assets\.gitkeep" />
-    <Content Include="Cotador\src\tsconfig.app.json" />
-    <Content Include="Cotador\tsconfig.json" />
-    <Content Include="Cotador\tslint.json" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -198,6 +210,33 @@
     <Content Include="Content\bootstrap-reboot.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="Angular\.angular-cli.json" />
+    <Content Include="Angular\.editorconfig" />
+    <Content Include="Angular\dist\out-tsc\app\app.component.js.map" />
+    <Content Include="Angular\dist\out-tsc\app\app.module.js.map" />
+    <Content Include="Angular\dist\out-tsc\app\navbar\navbar.component.js.map" />
+    <Content Include="Angular\dist\out-tsc\e2e\app.e2e-spec.js.map" />
+    <Content Include="Angular\dist\out-tsc\e2e\app.po.js.map" />
+    <Content Include="Angular\dist\out-tsc\environments\environment.js.map" />
+    <Content Include="Angular\dist\out-tsc\environments\environment.prod.js.map" />
+    <Content Include="Angular\dist\out-tsc\main.js.map" />
+    <Content Include="Angular\dist\out-tsc\polyfills.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\app\app.component.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\app\app.component.spec.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\app\app.module.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\app\navbar\navbar.component.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\app\navbar\navbar.component.spec.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\environments\environment.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\environments\environment.prod.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\main.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\polyfills.js.map" />
+    <Content Include="Angular\dist\out-tsc\src\test.js.map" />
+    <Content Include="Angular\package-lock.json" />
+    <Content Include="Angular\package.json" />
+    <Content Include="Angular\src\assets\.gitkeep" />
+    <Content Include="Angular\src\tsconfig.app.json" />
+    <Content Include="Angular\tsconfig.json" />
+    <Content Include="Angular\tslint.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -246,21 +285,20 @@
     <Content Include="Scripts\popper-utils.js.map" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Cotador\src\app\app.component.ts" />
-    <TypeScriptCompile Include="Cotador\src\app\app.module.ts" />
-    <TypeScriptCompile Include="Cotador\src\app\navbar\navbar.component.ts" />
-    <TypeScriptCompile Include="Cotador\src\environments\environment.prod.ts" />
-    <TypeScriptCompile Include="Cotador\src\environments\environment.ts" />
-    <TypeScriptCompile Include="Cotador\src\main.ts" />
-    <TypeScriptCompile Include="Cotador\src\polyfills.ts" />
-    <TypeScriptCompile Include="Cotador\src\typings.d.ts" />
+    <TypeScriptCompile Include="Angular\src\app\app.component.ts" />
+    <TypeScriptCompile Include="Angular\src\app\app.module.ts" />
+    <TypeScriptCompile Include="Angular\src\app\navbar\navbar.component.ts" />
+    <TypeScriptCompile Include="Angular\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="Angular\src\environments\environment.ts" />
+    <TypeScriptCompile Include="Angular\src\main.ts" />
+    <TypeScriptCompile Include="Angular\src\polyfills.ts" />
+    <TypeScriptCompile Include="Angular\src\typings.d.ts" />
     <TypeScriptCompile Include="Scripts\index.d.ts" />
   </ItemGroup>
   <ItemGroup>
@@ -296,10 +334,10 @@
     </VisualStudio>
   </ProjectExtensions>
   <Target Name="NgDebug" BeforeTargets="Build" Condition="'$(Configuration)' == 'Debug'">
-    <Exec WorkingDirectory="$(ProjectDir)Cotador" Command="ng build -ec" />
+    <Exec WorkingDirectory="$(ProjectDir)Angular" Command="ng build -ec" />
   </Target>
   <Target Name="NgRelease" BeforeTargets="Build" Condition="'$(Configuration)' == 'Release'">
-    <Exec WorkingDirectory="$(ProjectDir)Cotador" Command="ng build --prod" />
+    <Exec WorkingDirectory="$(ProjectDir)Angular" Command="ng build --prod" />
   </Target>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
